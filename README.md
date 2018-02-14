@@ -8,7 +8,7 @@ This repo is an simple example of using `Microsoft.AspNetCore.WebHooks.Receivers
 
 _Note: If you are running Bitbucket Server in a docker, below are is what I had to do to get the webhooks properly sending data to the api running from iisexpress._
 
-1. Open _<repo folder>/BitbucketServerWebHooks/.vs/config/applicationhost.config_ and search for `bindingInformation` (make sure you edit only the one under `<site name="BitbucketServerWebHooks"...>`).
+1. Open `<repo folder>/BitbucketServerWebHooks/.vs/config/applicationhost.config` and search for `bindingInformation` (make sure you edit only the one under `<site name="BitbucketServerWebHooks"...>`).
 
 ```
 // Previous
